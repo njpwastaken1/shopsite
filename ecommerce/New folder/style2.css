@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-items nav{
+    display: flex;
+    gap: 60px;
+}
+
+.nav-items nav a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-items nav a:hover{
+    color: black;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+/* hero section */
+
+
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120vh;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    padding-bottom: 125px;
+}
+
+.hero-container{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container1{
+    gap: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* box */
+
+.box img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.box h3{
+    padding-top: 15px;
+}
+
+.box p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 16px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    color: black;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* box end */
+
+

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background-color: whitesmoke;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-items nav{
+    display: flex;
+    gap: 60px;
+}
+
+.nav-items nav a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-items nav a:hover{
+    color: black;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+.form-section{
+    height: 75vh;
+    display: flex;
+    justify-content:top;
+    align-items: top;
+    flex-direction: column;
+    margin-top: 125px;
+}
+
+.form-section h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.form-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 30px;
+}
+
+.forms input{
+    background-color: whitesmoke;
+    color: black;
+    height: 100px;
+    width: 1000px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px rgba(0, 0, 0, 0.507);
+    text-align: center;
+}
+
+
